@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # 1. Redis: In-memory store for chat history
+  redis:
+    image: redis:7.2-alpine
+    container_name: redis_cache
+    expose:
+      - "6379"
+    restart: always
+    networks:
+      - trail4-network
+
+  # 2. Qdrant: Vector database for storing news embeddings
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_vector_db
+    expose:
+      - "6333" # HTTP API
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    restart: always
+    networks:
+      - trail4-network
+
+  # 3. Backend: Node.js/Express Server (The RAG Brain)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: rag_chatbot_backend
+    ports:
+      - "3000:3000"                  # host 3000 -> container 3000
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      JINA_API_KEY: ${JINA_API_KEY}
+      QDRANT_HOST: ${QDRANT_HOST}
+      QDRANT_PORT: ${QDRANT_PORT}
+      QDRANT_COLLECTION: ${QDRANT_COLLECTION}
+      REDIS_HOST: ${REDIS_HOST}
+      REDIS_PORT: ${REDIS_PORT}
+      BACKEND_PORT: ${BACKEND_PORT}
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - redis
+      - qdrant
+    restart: always
+    networks:
+      - trail4-network
+
+  # 4. Frontend: React Application (The User Interface)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_BACKEND_URL: ${VITE_BACKEND_URL}
+    container_name: rag_chatbot_frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - trail4-network
+
+networks:
+  trail4-network:
+    driver: bridge
+
+volumes:
+  qdrant_storage:
