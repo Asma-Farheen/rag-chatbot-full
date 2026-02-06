@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import "./ChatPage.scss";
 
 // LOCAL BACKEND ONLY (Fallback)
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://rag-chatbot-full.onrender.com";
 
 export default function ChatPage() {
   const [sessionId, setSessionId] = useState("");
