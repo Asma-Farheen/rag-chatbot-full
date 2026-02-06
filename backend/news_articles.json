@@ -1,0 +1,355 @@
+[
+  {
+    "id": 1,
+    "title": "Government Announces New Energy Bill Reforms",
+    "text": "The government has introduced reforms to reduce household energy bills by 15% over the next year. The policy focuses on renewable sources and infrastructure upgrades.",
+    "url": "https://news.example.com/energy-bill-reforms",
+    "category": "energy"
+  },
+  {
+    "id": 2,
+    "title": "Tech Giants Face New Global AI Regulations",
+    "text": "International regulators are drafting new AI policies focusing on data privacy, transparency, and ethical use. Major tech firms are expected to comply starting next quarter.",
+    "url": "https://news.example.com/ai-regulations",
+    "category": "technology"
+  },
+  {
+    "id": 3,
+    "title": "Stock Markets Rally After Positive Economic Forecast",
+    "text": "Global stock markets saw a surge following optimistic outlooks from leading economists predicting stable growth and reduction in inflation.",
+    "url": "https://news.example.com/stock-market-rally",
+    "category": "economy"
+  },
+  {
+    "id": 4,
+    "title": "New Electric Vehicle Model Breaks Sales Records",
+    "text": "A newly launched electric vehicle has set sales records, with over 200,000 units sold in its first month, marking a major milestone for the EV industry.",
+    "url": "https://news.example.com/ev-sales-record",
+    "category": "automotive"
+  },
+  {
+    "id": 5,
+    "title": "Scientists Discover Water Presence on Distant Exoplanet",
+    "text": "Astronomers detected water vapor in the atmosphere of an exoplanet 120 light-years away, increasing hopes of finding habitable worlds.",
+    "url": "https://news.example.com/exoplanet-water",
+    "category": "science"
+  },
+  {
+    "id": 6,
+    "title": "New Startup Aims to Revolutionize Food Delivery",
+    "text": "A new food-tech startup claims it can deliver meals in under 10 minutes using AI-driven logistics and micro-fulfillment centers.",
+    "url": "https://news.example.com/startup-food-delivery",
+    "category": "technology"
+  },
+  {
+    "id": 7,
+    "title": "Local Schools Implement Mental Health Programs",
+    "text": "Schools across the region have introduced new mental health initiatives aimed at reducing stress and improving student well-being.",
+    "url": "https://news.example.com/mental-health-schools",
+    "category": "health"
+  },
+  {
+    "id": 8,
+    "title": "Climate Summit Concludes with Emission Reduction Pact",
+    "text": "World leaders agreed to a new emissions pact committing to a 40% reduction in carbon output by 2035.",
+    "url": "https://news.example.com/climate-summit",
+    "category": "environment"
+  },
+  {
+    "id": 9,
+    "title": "Major Retail Chain Announces Price Cuts",
+    "text": "One of the country's largest retail chains has announced a nationwide price reduction campaign to ease consumer pressure.",
+    "url": "https://news.example.com/retail-price-cuts",
+    "category": "business"
+  },
+  {
+    "id": 10,
+    "title": "Breakthrough in Battery Technology Promises Faster Charging",
+    "text": "Researchers unveiled a new type of lithium battery capable of charging in under 5 minutes.",
+    "url": "https://news.example.com/battery-breakthrough",
+    "category": "technology"
+  },
+  {
+    "id": 11,
+    "title": "Sports League Approves New Safety Regulations",
+    "text": "A major sports league has implemented new concussion protocols to increase athlete safety.",
+    "url": "https://news.example.com/sports-safety",
+    "category": "sports"
+  },
+  {
+    "id": 12,
+    "title": "Hospital Launches Robotic Surgery Wing",
+    "text": "A city hospital opened a new robotic-assisted surgery wing, promising more precise and minimally invasive procedures.",
+    "url": "https://news.example.com/robotic-surgery",
+    "category": "health"
+  },
+  {
+    "id": 13,
+    "title": "New Metro Line Opens to Reduce Traffic Congestion",
+    "text": "A new metro line has opened connecting major tech hubs with residential areas, reducing commute times significantly.",
+    "url": "https://news.example.com/metro-line",
+    "category": "infrastructure"
+  },
+  {
+    "id": 14,
+    "title": "Global Happiness Index Ranks Country in Top Ten",
+    "text": "According to the latest World Happiness Report, the country has climbed into the global top ten for the first time.",
+    "url": "https://news.example.com/happiness-index",
+    "category": "society"
+  },
+  {
+    "id": 15,
+    "title": "Farmers Adopt Drone Technology for Crop Monitoring",
+    "text": "Farmers are increasingly using drones for real-time crop analysis and yield prediction, boosting agricultural efficiency.",
+    "url": "https://news.example.com/drone-agriculture",
+    "category": "agriculture"
+  },
+  {
+    "id": 16,
+    "title": "New Education Policy Focuses on Digital Skills",
+    "text": "The education ministry introduced a new policy emphasizing coding, AI, and digital literacy in schools.",
+    "url": "https://news.example.com/digital-education",
+    "category": "education"
+  },
+  {
+    "id": 17,
+    "title": "Airlines Resume International Routes After Demand Surge",
+    "text": "Airlines have reopened several suspended international routes following a sharp rise in travel demand.",
+    "url": "https://news.example.com/airlines-resume",
+    "category": "travel"
+  },
+  {
+    "id": 18,
+    "title": "Researchers Develop Eco-Friendly Plastic Alternative",
+    "text": "A biodegradable plastic substitute made from seaweed may soon replace traditional petroleum-based plastics.",
+    "url": "https://news.example.com/eco-plastic",
+    "category": "science"
+  },
+  {
+    "id": 19,
+    "title": "New Housing Project Announced in City Suburbs",
+    "text": "A major housing development project will bring affordable homes to thousands in the outer suburbs.",
+    "url": "https://news.example.com/housing-project",
+    "category": "real_estate"
+  },
+  {
+    "id": 20,
+    "title": "Space Agency Tests Prototype Lunar Rover",
+    "text": "The latest lunar rover prototype successfully completed mobility and communication tests in desert conditions.",
+    "url": "https://news.example.com/lunar-rover",
+    "category": "space"
+  },
+
+  {
+    "id": 21,
+    "title": "Pharmaceutical Company Releases New Flu Vaccine",
+    "text": "A new flu vaccine variant has been released, offering expanded protection against emerging viral strains.",
+    "url": "https://news.example.com/flu-vaccine",
+    "category": "health"
+  },
+  {
+    "id": 22,
+    "title": "City Introduces Bike-Lane Expansion Project",
+    "text": "The municipal corporation announced a massive expansion of bike lanes to improve sustainable transport.",
+    "url": "https://news.example.com/bike-lanes",
+    "category": "infrastructure"
+  },
+  {
+    "id": 23,
+    "title": "Tech Startups Receive Funding Boost from Investors",
+    "text": "Early-stage startups saw a record $1.2B in venture capital funding this quarter.",
+    "url": "https://news.example.com/startup-funding",
+    "category": "business"
+  },
+  {
+    "id": 24,
+    "title": "Archaeologists Unearth Ancient Artifacts",
+    "text": "Excavation teams discovered centuries-old artifacts that could reshape regional history.",
+    "url": "https://news.example.com/ancient-artifacts",
+    "category": "history"
+  },
+  {
+    "id": 25,
+    "title": "Forest Fire Contained After Week-Long Battle",
+    "text": "Firefighters successfully contained a massive forest fire that burned over 5,000 acres.",
+    "url": "https://news.example.com/forest-fire",
+    "category": "environment"
+  },
+  {
+    "id": 26,
+    "title": "New Cancer Treatment Shows Promising Results",
+    "text": "Clinical trials of a new cancer therapy show higher remission rates with fewer side effects.",
+    "url": "https://news.example.com/cancer-treatment",
+    "category": "health"
+  },
+  {
+    "id": 27,
+    "title": "Banks Introduce Biometric Authentication",
+    "text": "Banks will begin implementing facial recognition for secure transactions.",
+    "url": "https://news.example.com/biometric-banking",
+    "category": "finance"
+  },
+  {
+    "id": 28,
+    "title": "Railway Network Upgrades Improve Travel Times",
+    "text": "Modernization of signaling systems is expected to reduce delays across regional rail routes.",
+    "url": "https://news.example.com/rail-upgrades",
+    "category": "transport"
+  },
+  {
+    "id": 29,
+    "title": "Country Records Highest Tourism Numbers in a Decade",
+    "text": "New tourism campaigns and improved visa processes have boosted international arrivals.",
+    "url": "https://news.example.com/tourism-surge",
+    "category": "travel"
+  },
+  {
+    "id": 30,
+    "title": "Researchers Develop AI to Detect Fake Images",
+    "text": "A breakthrough AI model can now detect manipulated images with 97% accuracy.",
+    "url": "https://news.example.com/ai-detect-fakes",
+    "category": "technology"
+  },
+
+  {
+    "id": 31,
+    "title": "Government Expands Subsidy for Solar Panels",
+    "text": "Citizens installing rooftop solar systems will receive additional subsidies under a new scheme.",
+    "url": "https://news.example.com/solar-subsidy",
+    "category": "energy"
+  },
+  {
+    "id": 32,
+    "title": "University Introduces AI Research Fellowship",
+    "text": "A top university has launched a fellowship to promote innovation in artificial intelligence.",
+    "url": "https://news.example.com/ai-fellowship",
+    "category": "education"
+  },
+  {
+    "id": 33,
+    "title": "Major Sports Event Generates Record Revenue",
+    "text": "This year's championship event recorded the highest revenue in its history.",
+    "url": "https://news.example.com/sports-revenue",
+    "category": "sports"
+  },
+  {
+    "id": 34,
+    "title": "Scientists Develop New Earthquake Warning System",
+    "text": "A sensor network combining AI prediction offers quicker earthquake alerts.",
+    "url": "https://news.example.com/earthquake-warning",
+    "category": "science"
+  },
+  {
+    "id": 35,
+    "title": "International Summit Addresses Cybersecurity Threats",
+    "text": "Global leaders discussed rising cyberattacks and pledged coordinated defense responses.",
+    "url": "https://news.example.com/cybersecurity-summit",
+    "category": "security"
+  },
+  {
+    "id": 36,
+    "title": "City Zoo Welcomes Rare Endangered Species",
+    "text": "A critically endangered species has been successfully introduced to the local conservation program.",
+    "url": "https://news.example.com/rare-species",
+    "category": "environment"
+  },
+  {
+    "id": 37,
+    "title": "New Renewable Energy Plant Starts Operations",
+    "text": "A hybrid solar-wind power plant has begun operations, generating electricity for 50,000 homes.",
+    "url": "https://news.example.com/renewable-plant",
+    "category": "energy"
+  },
+  {
+    "id": 38,
+    "title": "Study Finds Link Between Sleep and Productivity",
+    "text": "A new study highlights how consistent sleep patterns can improve workplace performance.",
+    "url": "https://news.example.com/sleep-productivity",
+    "category": "health"
+  },
+  {
+    "id": 39,
+    "title": "Local Businesses Embrace Digital Payments",
+    "text": "Small businesses across the region are shifting to contactless and mobile payments.",
+    "url": "https://news.example.com/digital-payments",
+    "category": "business"
+  },
+  {
+    "id": 40,
+    "title": "Breakthrough in Quantum Computing Achieved",
+    "text": "Scientists have created a stable quantum processor operating at new efficiency levels.",
+    "url": "https://news.example.com/quantum-breakthrough",
+    "category": "technology"
+  },
+
+  {
+    "id": 41,
+    "title": "Real Estate Market Sees Steady Growth",
+    "text": "Property prices remained stable with moderate growth across major cities.",
+    "url": "https://news.example.com/real-estate-growth",
+    "category": "real_estate"
+  },
+  {
+    "id": 42,
+    "title": "Public Transport Fares Reduced for Students",
+    "text": "Students will receive a 30% fare discount for all public transport starting next month.",
+    "url": "https://news.example.com/transport-discount",
+    "category": "education"
+  },
+  {
+    "id": 43,
+    "title": "Ocean Cleanup Project Collects Record Plastic Waste",
+    "text": "The latest cleanup mission successfully removed 500 tons of plastic from the Great Pacific Garbage Patch.",
+    "url": "https://news.example.com/ocean-cleanup",
+    "category": "environment"
+  },
+  {
+    "id": 44,
+    "title": "Food Prices Expected to Drop After Good Harvest",
+    "text": "Farmers report a strong harvest season, expected to ease food inflation.",
+    "url": "https://news.example.com/food-prices-drop",
+    "category": "economy"
+  },
+  {
+    "id": 45,
+    "title": "Major Airport Expands International Terminal",
+    "text": "The expansion is expected to increase passenger capacity by 25%.",
+    "url": "https://news.example.com/airport-expansion",
+    "category": "travel"
+  },
+  {
+    "id": 46,
+    "title": "Social Media App Adds New Safety Features",
+    "text": "A popular app launched new privacy controls, including improved content filters.",
+    "url": "https://news.example.com/app-safety",
+    "category": "technology"
+  },
+  {
+    "id": 47,
+    "title": "Government Invests in Robotics Research",
+    "text": "A $500M grant has been approved to support robotics and automation innovation.",
+    "url": "https://news.example.com/robotics-funding",
+    "category": "science"
+  },
+  {
+    "id": 48,
+    "title": "International Art Festival Attracts Global Audience",
+    "text": "Artists from 40+ countries participated in this year’s international art showcase.",
+    "url": "https://news.example.com/art-festival",
+    "category": "culture"
+  },
+  {
+    "id": 49,
+    "title": "Cloud Service Outage Disrupts Global Operations",
+    "text": "A major cloud provider experienced an outage affecting businesses worldwide.",
+    "url": "https://news.example.com/cloud-outage",
+    "category": "technology"
+  },
+  {
+    "id": 50,
+    "title": "Scientists Create Lab-Grown Meat Breakthrough",
+    "text": "Researchers successfully grew a meat sample identical to real beef without using animal cells.",
+    "url": "https://news.example.com/lab-grown-meat",
+    "category": "science"
+  }
+]
