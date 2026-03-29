@@ -1,10 +1,11 @@
 // backend/listSessions.js
 // Usage: node listSessions.js
 
-import { redisClient } from './src/redisClient.js';
+import { redisClient, initRedis } from './src/redisClient.js';
 
 async function listAllSessions() {
     try {
+        await initRedis();
         // Get all session keys
         const keys = await redisClient.keys('session:*:messages');
 

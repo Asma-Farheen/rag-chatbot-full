@@ -11,7 +11,7 @@ export async function handleChat(req, res) {
         res.json(result);
     } catch (err) {
         console.error("Error /api/chat:", err);
-        res.status(500).json({ error: "Internal server error while processing chat." });
+        res.status(500).json({ error: "Internal server error while processing chat.", details: err.message, stack: err.stack });
     }
 }
 

@@ -36,6 +36,7 @@ const QDRANT_API_KEY = process.env.QDRANT_API_KEY;
 const qdrant = new QdrantClient({
   url: QDRANT_URL,
   apiKey: QDRANT_API_KEY,
+  checkCompatibility: false,
 });
 
 // Jina Embedding function

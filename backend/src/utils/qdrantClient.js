@@ -47,6 +47,7 @@ export function initQdrant() {
     // Create a new Qdrant client
     const options = {
         url: QDRANT_URL.replace(/\/+$/, ""),
+        checkCompatibility: false,
     };
     if (QDRANT_API_KEY) {
         options.apiKey = QDRANT_API_KEY;
